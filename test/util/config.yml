@@ -1,0 +1,23 @@
+REQUEST_URL: https://sandbox.api.mastercard.com/oauth/consumer/v1/request_token
+SHOPPING_CART_URL: https://sandbox.api.mastercard.com/masterpass/v6/shopping-cart
+ACCESS_URL: https://sandbox.api.mastercard.com/oauth/consumer/v1/access_token
+POSTBACK_URL: https://sandbox.api.mastercard.com/masterpass/v6/transaction
+PRE_CHECKOUT_URL: https://sandbox.api.mastercard.com/masterpass/v6/precheckout
+EXPRESS_CHECKOUT_URL: https://sandbox.api.mastercard.com/masterpass/v6/expresscheckout
+MERCHANT_INIT_URL: https://sandbox.api.mastercard.com/masterpass/v6/merchant-initialization
+PAIRING_CALLBACK_PATH: /pairing_callback
+EXPRESS_CALLBACK_PATH: /pairing_callback?express=true
+CALLBACK_DOMAIN: http://projectabc.com
+CALLBACK_PATH: /oauthcallback
+CONSUMER_KEY: cLb0tKkEJhGTITp_6ltDIibO5Wgbx4rIldeXM_jRd4b0476c!414f4859446c4a366c726a327474695545332b353049303d
+CHECKOUT_IDENTIFIER: a4a6x1ywxlkxzhensyvad1hepuouaesuv
+KEYSTORE_PASSWORD: changeit
+KEYSTORE_PATH: data/SandboxMCOpenAPI.p12
+SHIPPING_PROFILES: "US,CA,FR,MEX,NA,UK"
+REALM: eWallet
+AUTH_LEVEL_BASIC: false
+XML_VERSION: v2
+SHIPPING_SUPPRESSION: false
+CHECKOUT_URL: https://api.mastercard.com/mtf/masterpass/v6/checkout
+LIGHTBOX_URL: https://sandbox.masterpass.com/lightbox/Switch/integration/MasterPass.client.js
+
